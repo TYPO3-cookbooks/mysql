@@ -150,6 +150,11 @@ module Opscode
                 'package_name' => 'mysql-server-5.5'
               }
             },
+            '8' => {
+              '5.5' => {
+                'package_name' => 'mysql-server-5.5'
+              }
+            },
             'jessie/sid' => {
               '5.5' => {
                 'package_name' => 'mysql-server-5.5'

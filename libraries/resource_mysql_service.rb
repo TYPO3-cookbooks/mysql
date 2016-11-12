@@ -117,6 +117,7 @@ class Chef
         when 'debian'
           return '5.1' if node['platform_version'].to_i == 6
           return '5.5' if node['platform_version'].to_i == 7
+          return '5.5' if node['platform_version'].to_i == 8
           case node['platform_version']
           when '14.10'
             default_version = '5.6'
