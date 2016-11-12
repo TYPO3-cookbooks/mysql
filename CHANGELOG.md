@@ -2,6 +2,10 @@ mysql Cookbook CHANGELOG
 ========================
 This file is used to list changes made in each version of the mysql cookbook.
 
+v5.7.0 (2016-11-12)
+------------------
+- Debian 8 support
+
 v5.6.3 (2014-04-18)
 ------------------
 - #329 - Stop polluting Chef::Resource with methods
